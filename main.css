@@ -1,0 +1,46 @@
+body{
+	font-family: roboto;
+}
+nav{
+	background: #021428;
+	width: 100%;
+	height: 70px;
+}
+a{
+	
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 15px;
+	position: relative;
+	top: -13px;
+	left:40px;
+}
+a:hover{
+	color: yellow;
+}
+a:active{
+	color: lime;
+}
+a.active{
+	color: lime;
+
+}
+img#logo{
+	margin-left: 350px;
+	margin-right: 15px;
+	margin-top: 14px;
+}
+footer{
+	margin-top: 54px;
+	background: #021428;
+	height: 100px;
+	color: white;
+}
+
+#footer_text{
+	line-height: 5;
+	text-align: center;
+	color: white;
+
+}

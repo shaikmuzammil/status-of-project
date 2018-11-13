@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>major project</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="major.css">
+  <style type="text/css">
+    .accordi {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+    font-family: roboto;
+}
+.check {
+    padding: 0 250px;
+   text-align: left;
+    line-height: 1.5;
+}
+  </style>
+  
+</head>
+<body>
+<nav>
+	<a class="ma" href="logout.php">Logout</a>
+	<a class="ba" href="index.html">Back</a>
+</nav>
+<br>
+<h2 style="color: #001f3f; font-size: 45px;"> Welcome to Major Project</h2>
+<form style="width:100%; border:none;" action="majorproject.php"  method="POST">
+<div class="ma">
+<label class="accordi">Review 1--Abstract</label>
+<div class="check">
+  <input type="checkbox" name="rv1a" id="rv1a" value="1">Abstract submission<br>
+  <input type="checkbox" name="rv1b" id="rv1b" value="1">Existing model<br>
+  <input type="checkbox" name="rv1c" id="rv1c" value="1">NewModel<br>
+</div>
+
+<label class="accordi">Review 2--SRS</label>
+<div class="check">
+  <input type="checkbox" name="rv2a" value="1">functional <br>
+  <input type="checkbox" name="rv2b" value="1">non-functional<br>
+  <input type="checkbox" name="rv2c" value="1">H/w & S/w requirements<br>
+</div>
+
+<label class="accordi">Review 3</label>
+<div class="check">
+ <input type="checkbox" name="rv3a" value="1">UML diagrams<br>
+ <input type="checkbox" name="rv3b" value="1">Coding<br>
+ <input type="checkbox" name="rv3c" value="1">Implementation<br>
+</div>
+<label class="accordi">Review 4</label>
+<div class="check">
+  <form style="width:100%; border:none;"action="majorproject.php"  method="POST">
+  <input type="checkbox" name="rv4a" value="1">Execution<br>
+  <input type="checkbox" name="rv4b" value="1">TestCases<br>
+  <input type="checkbox" name="rv4c" value="1">Conclusion<br>
+
+</div>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" name="maproject" class="form-but">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" name="" class="form-but">
+</div>
+</form>
+</div>
+<br>
+	<footer id="footer_text">
+		Status &copy; of Project
+	</footer>
+
+
+<!--
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+
+function send(){
+  $.post(){
+
+  }
+}
+</script>
+-->
+</body>
+</html>

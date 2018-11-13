@@ -1,0 +1,24 @@
+.ma{
+	margin-top: 85.5px;
+}
+
+a.ma{
+    color: lime;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 85px;
+    position: relative;
+    top: 20px;
+    left: 1080px;
+}
+a.ba{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 3px;
+    position: relative;
+    top: 20px;
+    border-color: white;
+
+
+}
